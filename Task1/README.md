@@ -1,6 +1,7 @@
 LAB Task 1
 
 PART-1
+
 Input:[8,3,15,6,2]
 Output: Largest number=15, Number of comparisons = 4, Sorted List:[2,3,6,8,15]
 Bubble sort algorithm used in sorting of list and Linear scan is implemented to find largest number
