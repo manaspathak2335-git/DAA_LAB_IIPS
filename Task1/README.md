@@ -91,3 +91,29 @@ Loop 3:["Task1","Task2","Task3"]
 Loop 4:["Task1","Task2","Task3","Task4"]
 
 Loop 5:["Task1","Task2","Task3","Task4","Task5"]
+
+PART - 4
+
+Input:-
+
+For normal loop, n=5 and 20
+
+For nested loop, n=5 and 10
+
+Output:-
+
+For normal loop, n=5, output = 1,2,3,4,5 , loop runs 5 times
+
+For normal loop, n=20, output = 1,2,3.....,19,20 , loop runs 20 times
+
+For nested loop, n=5, output = 1 1, 1 2, 1 3......,5 4,5 5 , nested loop runs 25 times
+
+For nested loop, n=10, output = 1 1, 1 2, 1 3......,10 9, 10 10 , nested loop runs 100 times
+
+*Python's inbuilt range() function used to generate numbers from 1 to n
+
+If input size grew, computational efforts using normal loop grow proportionally, Time Complexity - O(N),  This is because loop runs only once for each n value
+
+computational efforts using nested loop grow quadratically, Time Complexity - O(N^2), This is because nested loop runs n times for each n value.
+
+
